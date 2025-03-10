@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #070707;
+    margin: 0;
+    padding: 20px;
+}
+
+.titulo {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+canvas {
+    border: 5px solid black;
+    background-color: #ff8;
+}
+
+#startButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#startButton:hover {
+    background-color: #218838;
+}
